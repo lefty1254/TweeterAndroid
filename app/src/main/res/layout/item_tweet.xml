@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/ivProfileImage"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="75dp"
+        android:layout_height="85dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
@@ -23,8 +23,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="51dp"
+        android:layout_marginStart="76dp"
         android:layout_marginTop="0dp"
+        android:textSize="24sp"
         tools:text="et_427" />
 
     <TextView
@@ -32,7 +33,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvScreenName"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="51dp"
+        android:layout_alignParentStart="false"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
         tools:text="some tweet!" />
+
+    <TextView
+        android:id="@+id/tvDateCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBody"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView" />
 </RelativeLayout>
