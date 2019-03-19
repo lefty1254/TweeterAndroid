@@ -48,4 +48,7 @@ dependencies {
 
     implementation 'com.android.support:support-v4:27.1.1'
 
+    implementation 'org.parceler:parceler:1.1.11'
+    annotationProcessor 'org.parceler:parceler:1.1.11'
+
 }
